@@ -2,12 +2,17 @@
 		<html>
 			<head>
 				<title>Home Base</title>
-				<link rel="stylesheet" href="phpfile.php">
-				<link rel="stylesheet" href="productivitycss.css">
-				<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-
+					<link rel="stylesheet" href="phpfile.php">
+					<link rel="stylesheet" href="productivitycss.css">
+					<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<style>
+				body {
+  						  background-color: lightblue;
+					}
+	</style>
 			</head>
 		<body>
+
 
 			<div class="container">
 				<div class="row">
@@ -15,7 +20,7 @@
 						<a href="Homepage.idex.html"><b>Home</b></a>	
 					</div>
 					<div class="col-md-2 col-md-offset-8">
-							<a href="LoginSignup.html"><b>Login/SignUP</b></a>
+						
 					</div>
 				</div>
 				
@@ -26,7 +31,8 @@
 				</div>
 				<div class="row">
 					<div class="col-md-2">
-						<p><a href="file:///C:/Users/Beautyofaactress/Desktop/ProductivityPage/ToDoList.html"><b>To Do List</b></a></p>
+						<p><b>To Do List</b></p>
+
 					</div>
 					<div class="col-md-offset-8">
 	
@@ -36,8 +42,9 @@
 						</ul>
 					</div>
 				</div>
+				
 				<div>
-					<textarea name="message" rows="10" cols="30">
+					<textarea name="message" rows="7" cols="30">
 						
 					</textarea>
 				</div>
@@ -64,7 +71,7 @@
 
 			document.getElementById("time").innerHTML="Time: " + date.getHours() + ":" + date.getMinutes();
 
-
+document.body.style.backgroundColor="#000;"
 			</script>
 	</body>
 	</html>
